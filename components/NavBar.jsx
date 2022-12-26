@@ -29,7 +29,7 @@ export default function NavBar()
     }, [])
 
 
-    return <nav className='dark:bg-black dark:text-white shadow-md px-8 py-4  fixed top-0 left-0 right-0 flex items-center justify-between'>
+    return <nav className='dark:bg-black bg-white dark:text-white shadow-md px-8 py-4  fixed top-0 left-0 right-0 z-50 flex items-center justify-between'>
         <Link href='/'>
             <h1 className='text-3xl font-bold logo'>Epic Events</h1>
         </Link>
@@ -41,7 +41,7 @@ export default function NavBar()
                     <Link className={router.asPath === '/' ? activeClass : inActiveClass} href='/'>Home</Link>
                 </li>
                 <li>
-                    <Link className={router.asPath === '/events' ? activeClass : inActiveClass} href='/events'>Events</Link>
+                    <Link className={router.asPath.includes('/events') ? activeClass : inActiveClass} href='/events'>Events</Link>
                 </li>
                 <li>
                     <Link className={router.asPath === '/tops' ? activeClass : inActiveClass} href='/tops'>Tops</Link>

@@ -1,3 +1,7 @@
+# Epic Events
+Epic Events is a Next.js Full-Stack App.
+It has its own server apis and the data.json is considered as our database here for simplicity
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
