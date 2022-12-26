@@ -16,7 +16,7 @@ export default function Events({ events }) {
 
       <section className='flex flex-col gap-8'>
         {
-          events.map((city, index) => <div key={city.id} className='grid grid-cols-12 dark:bg-black bg-gray-300 bg-opacity-30 rounded-lg p-2'>
+          events.map((city, index) => <div key={city.id} className='grid grid-cols-12 dark:bg-black bg-gray-300 dark:bg-opacity-30 bg-opacity-30 rounded-lg p-2'>
             <ImageCard className={`${index%2!==0? 'order-2' : ''} col-span-12 sm:col-span-6 lg:col-span-4 relative rounded-lg h-72 overflow-hidden flex items-center`} id={city.id} image={city.image}/>
             <div className="col-span-12 sm:col-span-6 lg:col-span-8 px-4 py-2">
             <h3 className='text-center sm:text-left text-2xl font-bold mb-2'>{city.title}</h3>

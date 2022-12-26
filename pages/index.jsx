@@ -14,7 +14,7 @@ export default function Home({ events }) {
 
       <section className='grid grid-cols-12 gap-4'>
         {
-          events.map((city) => <div key={city.id}className='col-span-12 lg:col-span-4 xs:flex lg:block gap-3 dark:bg-black bg-gray-300 bg-opacity-30 rounded-lg p-2 pb-4'>
+          events.map((city) => <div key={city.id}className='col-span-12 lg:col-span-4 xs:flex lg:block gap-3 dark:bg-black bg-gray-300 dark:bg-opacity-30 bg-opacity-30 rounded-lg p-2 pb-4'>
             <ImageCard className='relative rounded-lg lg:py-4 xs:w-2/4 lg:w-full h-72 mb-4 overflow-hidden flex items-center' id={city.id} image={city.image}/>
 
             <div className='xs:w-2/4 lg:w-full'>
