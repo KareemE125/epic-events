@@ -2,9 +2,9 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React from 'react'
+import CardsGrid from '../../../components/CardsGrid';
 
-export default function City(props) 
-{
+export default function City(props) {
     const router = useRouter();
     const { city } = props;
     const { events } = props;
@@ -17,18 +17,13 @@ export default function City(props)
             <link rel="icon" href="/favicon.png" />
         </Head>
         <main>
-            <h2 className='text-4xl'>{city.title}</h2>
-            {
-                events.map(event => <Link key={event.id} href={`${router.asPath}/${event.id}`} className='block'>
-                   {event.title}
-                </Link>)
-            }
+            <h2 className='text-4xl  lg:text-5xl logo py-8 text-center'>{city.title}</h2>
+            <CardsGrid itemsArray={events} />
         </main>
     </>
 }
 
-export async function getStaticPaths() 
-{
+export async function getStaticPaths() {
     const { events_categories } = await import('../../../data/data.json');
 
     const paths = events_categories.map(city => {
@@ -41,18 +36,17 @@ export async function getStaticPaths()
     }
 }
 
-export async function getStaticProps(context) 
-{
+export async function getStaticProps(context) {
     const data = await import('../../../data/data.json');
-    
+
     const id = context.params.city;
     const city = data.events_categories.find(city => city.id === id)
     const events = data.allEvents.filter(event => event.city === id)
 
     return {
         props: {
-            city: city,
-            events: events
+            city,
+            events
         },
         revalidate: 20,
     }

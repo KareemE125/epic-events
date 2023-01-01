@@ -17,6 +17,12 @@
             "title": "Events in Barcelona",
             "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
             "image": "https://images.unsplash.com/photo-1579282240050-352db0a14c21?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=652&q=80"
+        },
+        {
+            "id": "cairo",
+            "title": "Events in Cairo",
+            "description": "Cairo is the capital of Egypt and its largest city. Cairo is associated with ancient Egypt, as the Giza pyramid complex and the ancient cities of Memphis and Heliopolis are located in its geographical area. Located near the Nile Delta.",
+            "image": "https://static.saltinourhair.com/wp-content/uploads/2019/03/23140923/cairo-pyramids-giza.jpg"
         }
     ],
     "allEvents": [
@@ -33,7 +39,7 @@
             "title": "Hyde Park Winter Wonderland",
             "city": "london",
             "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
-            "image": "https://hydeparkwinterwonderland.com/static/252d7fe6693a6a8b1887bd2049204103/039f7/2021-503x503-3.webp",
+            "image": "https://hydeparkwinterwonderland.com/HPWW-Share-1080x1080.jpg",
             "emails_registered": []
         },
         {

@@ -20,6 +20,7 @@ a {
 
 .logo{
   font-family: 'Rubik Vinyl', cursive;
+  font-weight: bold;
 }
 
 @tailwind base;
