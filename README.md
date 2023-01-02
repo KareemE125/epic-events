@@ -2,14 +2,18 @@
 Epic Events is a Next.js Full-Stack App.
 
 It has its own server apis and the data.json is considered as our database here for simplicity
-
+## Next.Js + Tailwind
+## Visit Now 👉 https://epic-events.vercel.app/
 ## Screen Shot
-![ss](https://user-images.githubusercontent.com/61433385/209498121-3b05d5c4-2581-460c-a6f8-9a6da49c4916.png)
+![ss events (2)](https://user-images.githubusercontent.com/61433385/210270568-aa4ff753-05e5-4c8e-b07a-223081776d0a.png)
+![ss events (4)](https://user-images.githubusercontent.com/61433385/210270573-41e46559-8dbd-4ccb-9187-720a9242b8aa.png)
+![ss events (5)](https://user-images.githubusercontent.com/61433385/210270580-21f8d97b-3cc8-4486-8e29-6b9d8bec15fb.png)
+![ss events (3)](https://user-images.githubusercontent.com/61433385/210270592-4cb0c4bc-acd9-452c-9d34-e5257e4279e2.png)
+![ss events (1)](https://user-images.githubusercontent.com/61433385/210270595-735154f4-48ac-4f00-857f-c8e44ec3a9c1.png)
 
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
+To create a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 First, run the development server:
 
