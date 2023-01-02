@@ -27,6 +27,16 @@
     ],
     "allEvents": [
         {
+            "top": true,
+            "id": "new-years-eve-in-london-2023",
+            "title": "New Years Eve in London 2023 ",
+            "city": "london",
+            "description": "corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate",
+            "image": "https://images.unsplash.com/photo-1521478413868-1bbd982fa4a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+            "emails_registered": []
+        },
+        {
+            "top": true,
             "id": "london-comic-con-winter",
             "title": "London Comic Con Winter",
             "city": "london",
@@ -35,19 +45,12 @@
             "emails_registered": []
         },
         {
+            "top": true,
             "id": "hyde-park-winter-wonderland",
             "title": "Hyde Park Winter Wonderland",
             "city": "london",
             "description": "corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate",
             "image": "https://hydeparkwinterwonderland.com/HPWW-Share-1080x1080.jpg",
-            "emails_registered": []
-        },
-        {
-            "id": "new-years-eve-in-london-2023",
-            "title": "New Years Eve in London 2023 ",
-            "city": "london",
-            "description": "corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate",
-            "image": "https://images.unsplash.com/photo-1521478413868-1bbd982fa4a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
             "emails_registered": []
         },
         {
@@ -72,6 +75,7 @@
             ]
         },
         {
+            "top": true,
             "id": "kiss-haunted-house-party-2022",
             "title": "KISS Haunted House Party 2022",
             "city": "london",
@@ -95,6 +99,7 @@
             ]
         },
         {
+            "top": true,
             "id": "innovation-summit-san-francisco",
             "title": "Innovation Summit San Francisco",
             "city": "san-francisco",
@@ -130,6 +135,7 @@
             ]
         },
         {
+            "top": true,
             "id": "the-halloween-house-party",
             "title": "The Halloween House Party",
             "city": "barcelona",
