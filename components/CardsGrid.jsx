@@ -17,6 +17,10 @@ export default function CardsGrid({ itemsArray, all = false }) {
     {
       return router.asPath + `/${item.city}/${item.id}`;
     }
+    else if( router.asPath === '/tops')
+    {
+      return `/events/${item.city}/${item.id}`;
+    }
     else
     {
       return router.asPath + `/${item.id}`;
