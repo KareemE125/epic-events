@@ -10,7 +10,7 @@ export default function tops({ allEvents }) {
 
     <section>
       <h2 className='text-4xl lg:text-5xl font-bold text-center pt-8 pb-10 logo'>
-        Top <span className='text-6xl logo px-3'> 5 </span> Events
+        Top <span className='text-6xl logo px-3'> 6 </span> Events
       </h2>
       <CardsGrid itemsArray={allEvents} all/>
     </section>
