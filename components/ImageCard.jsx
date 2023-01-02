@@ -11,7 +11,7 @@ export default function ImageCard({ image, all = false, city }) {
     return <div className='relative rounded-lg lg:py-4 xs:w-2/4 lg:w-full h-72 mb-4 overflow-hidden flex items-center bg-black'>
         <img src={image} className='rounded-lg' />
         {
-            all && <div className='absolute bottom-0 left-1/2 -translate-x-1/2 rounded-t-lg min-w-[100px] text-center bg-pink-600 text-white dark:bg-bg-main-dark px-2 py-1  dark:text-violet-700'>
+            all && <div className='absolute bottom-0 left-1/2 -translate-x-1/2 rounded-t-lg min-w-[100px] text-center bg-pink-600 text-white dark:bg-bg-main-dark px-2 py-1 dark:text-violet-700 dark:bg-opacity-90 bg-opacity-90'>
                 {city.toUpperCase()}
             </div>
         }

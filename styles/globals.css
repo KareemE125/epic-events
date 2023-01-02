@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;500;600;700;800;900&family=Rubik+Vinyl&display=swap');
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -23,6 +27,3 @@ a {
   font-weight: bold;
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
